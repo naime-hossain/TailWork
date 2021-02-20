@@ -1,0 +1,62 @@
+{
+  "name": "workplace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.9.0",
+    "font-awesome": "^4.7.0",
+    "vue": "^2.6.11",
+    "vue-clickaway": "^2.2.2",
+    "vue-fontawesome-icon": "^1.3.0",
+    "vue-i18n": "^8.18.2",
+    "vue-lazyload": "^1.3.3",
+    "vue-meta": "^2.4.0",
+    "vue-perfect-scrollbar": "^0.2.1",
+    "vue-router": "^3.3.4",
+    "vue-simple-calendar": "^4.4.0",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "@vue/cli-plugin-babel": "^4.4.6",
+    "@vue/cli-plugin-eslint": "^4.4.6",
+    "@vue/cli-service": "^4.4.6",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "autoprefixer": "^9.8.6",
+    "babel-eslint": "^10.1.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "eslint": "^7.5.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.14.1",
+    "postcss": "^7.0.35",
+    "sass-loader": "^9.0.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
